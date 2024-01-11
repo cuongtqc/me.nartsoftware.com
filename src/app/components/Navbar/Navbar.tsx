@@ -11,9 +11,12 @@ import {
   NavbarToggle,
 } from "flowbite-react";
 
-export const Navbar = () => {
+export const Navbar = ({...props}) => {
   return (
-    <FNavbar fluid rounded className="w-full fixed border-b-2 shadow-teal-500/50">
+    <FNavbar
+      fluid
+      className={`w-full fixed border-b-2 shadow-teal-500/50 ${props.className || ''}`}
+    >
       <NavbarBrand href="https://flowbite-react.com">
         <img
           src="/favicon.ico"

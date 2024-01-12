@@ -5,7 +5,6 @@ import React, {
   cloneElement,
   FC,
   ReactElement,
-  useCallback,
   useMemo,
   useState,
 } from "react";
@@ -54,13 +53,13 @@ export const Carousel: FC<{ children?: any; wrapperClass?: string }> = ({
     );
   };
 
-  const transformValue = useMemo(() => `translate-x-${currentSlide}/${slides.length}`, [currentSlide, slides]);
+  const transformValue = useMemo(() => `-translate-x-[${currentSlide}00%]`, [currentSlide, slides]);
 
   return (
     <div className={wrapperClass}>
       <div
         className={
-          `relative flex h-full snap-x wrapper-container transition-transform duration-500 ease-in-out ${transformValue}`
+          `${transformValue} relative flex h-full snap-x overflow-y-hidden overflow-x-scroll snap-mandatory scroll-smooth no-scrollbar wrapper-container transition-transform duration-500 ease-in-out`
         }
       >
         {slides.map((slide, index) =>

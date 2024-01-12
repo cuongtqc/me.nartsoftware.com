@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05c8798-cc58-40e9-874b-be5d4befa4fb" name="Changes" comment="Update theme and tailwind layout">
-      <change afterPath="$PROJECT_DIR$/src/app/components/Carousel/Carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Carousel/Carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Carousel/HomeCarousel.tsx" afterDir="false" />
+    <list default="true" id="a05c8798-cc58-40e9-874b-be5d4befa4fb" name="Changes" comment="Add carousel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Carousel/HomeCarousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Carousel/HomeCarousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +76,7 @@
     <MESSAGE value="Next config out dir" />
     <MESSAGE value="Dont override out dir" />
     <MESSAGE value="Update theme and tailwind layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update theme and tailwind layout" />
+    <MESSAGE value="Add carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add carousel" />
   </component>
 </project>

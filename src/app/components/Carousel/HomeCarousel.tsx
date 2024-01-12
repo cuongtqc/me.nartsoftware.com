@@ -4,6 +4,7 @@ import {
   SLIDE_BUTTON_PREV,
   SLIDE_ITEM,
 } from "@/app/components/Carousel/Carousel";
+import React from 'react';
 
 export const HomeCarousel = () => {
   return (

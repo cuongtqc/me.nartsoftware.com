@@ -23,15 +23,16 @@ export const HomeCarousel = () => {
       </button>
       <div
         role={SLIDE_ITEM}
-        className="flex h-full min-w-full items-center justify-center bg-gray-400 relative"
+        className="flex h-full min-w-full items-center justify-center bg-gray-400 relative bg-no-repeat bg-center bg-cover"
+        style={{ backgroundImage: 'url(/AnasAbdin.gif)'}}
       >
-        Slide 2
+        Slide 1
       </div>
       <div
         role={SLIDE_ITEM}
         className="flex h-full min-w-full items-center justify-center bg-gray-400 relative"
       >
-        Slide 1
+        Slide 2
       </div>
       <div
         role={SLIDE_ITEM}

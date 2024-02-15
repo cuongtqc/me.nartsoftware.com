@@ -15,7 +15,7 @@ export const SLIDE_BUTTON_PREV = "SLIDE_BUTTON_PREV";
 
 export const Carousel: FC<{ children?: any; wrapperClass?: string }> = ({
   children,
-  wrapperClass = "relative h-full",
+  wrapperClass = "relative h-full overflow-x-hidden overflow-y-hidden",
 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const childrenArray = useMemo(

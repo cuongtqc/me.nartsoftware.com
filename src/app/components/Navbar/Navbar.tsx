@@ -1,9 +1,5 @@
 import {
   Button,
-  Dropdown,
-  DropdownDivider,
-  DropdownHeader,
-  DropdownItem,
   Navbar as FNavbar,
   NavbarBrand,
   NavbarCollapse,
@@ -11,11 +7,13 @@ import {
   NavbarToggle,
 } from "flowbite-react";
 
-export const Navbar = ({...props}) => {
+export const Navbar = ({ ...props }) => {
   return (
     <FNavbar
       fluid
-      className={`w-full fixed border-b-2 shadow-teal-500/50 ${props.className || ''}`}
+      className={`w-full fixed border-b-2 shadow-teal-500/50 ${
+        props.className || ""
+      }`}
     >
       <NavbarBrand href="https://flowbite-react.com">
         <img

@@ -23,19 +23,19 @@ export const HomeCarousel = () => {
       </button>
       <div
         role={SLIDE_ITEM}
-        className="flex h-full min-w-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white"
-      >
-        Slide 1
-      </div>
-      <div
-        role={SLIDE_ITEM}
-        className="flex h-full min-w-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white"
+        className="flex h-full min-w-full items-center justify-center bg-gray-400 relative"
       >
         Slide 2
       </div>
       <div
         role={SLIDE_ITEM}
-        className="flex h-full min-w-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white"
+        className="flex h-full min-w-full items-center justify-center bg-gray-400 relative"
+      >
+        Slide 1
+      </div>
+      <div
+        role={SLIDE_ITEM}
+        className="flex h-full min-w-full items-center justify-center bg-gray-400 relative"
       >
         Slide 3
       </div>

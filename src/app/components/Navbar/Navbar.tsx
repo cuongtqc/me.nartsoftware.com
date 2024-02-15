@@ -24,7 +24,7 @@ export const Navbar = ({...props}) => {
           alt="Flowbite React Logo"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Dash React
+          Dash Me
         </span>
       </NavbarBrand>
       <div className="flex md:order-2">
